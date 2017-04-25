@@ -5,9 +5,11 @@
   }
 
   NoteList.prototype.getnoteLog = function () {
-    for(i = 0; i < this.noteLog.length; i += 1) {
-      return this.noteLog[i];
+    allNotes =  "";
+    for(i = 0; i < this.noteLog.length; i++) {
+      allNotes += this.noteLog[i] + " ";
     }
+    return allNotes;
   };
 
   NoteList.prototype.createNote = function(text) {

@@ -9,8 +9,8 @@
     function testNoteLogIncludeNote(){
       var list = new NoteList();
       list.createNote("I love quotes!");
-
-      assert.isTrue(list.getnoteLog().includes("I love quotes!"));
+      list.createNote("I love notes!");
+      assert.isTrue(list.getnoteLog().includes("I love quotes! I love notes!"));
     };
 
 testNoteLogIncludeNote();

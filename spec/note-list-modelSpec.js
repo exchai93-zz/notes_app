@@ -13,8 +13,9 @@
   (function(exports) {
     function testNoteLogIncludeNote(){
       var list = new NoteList();
+      list.createNote("I love quotes!");
 
-      if (list.getnoteLog !== "I love quotes!") {
+      if (list.getnoteLog()!== "I love quotes!") {
         throw new Error("Error, noteLog does not include all saved notes!");
       }
     }

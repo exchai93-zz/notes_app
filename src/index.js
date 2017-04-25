@@ -3,4 +3,5 @@ function showInIndex() {
   var noteController = new NoteController(noteList);
   noteController.addNoteToIndex("Favourite drink: Seltzer");};
 
+
   showInIndex();

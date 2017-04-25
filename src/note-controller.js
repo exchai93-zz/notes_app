@@ -4,7 +4,7 @@
   }
 
   NoteController.prototype.addNoteToIndex = function(text) {
-    this.noteListView.noteList.createNote(text);
+    this.noteListView.note.createNote(text);
     document.getElementById('app').innerHTML = this.noteListView.getHTML();
   }
 

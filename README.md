@@ -2,6 +2,8 @@
 
 Further Javascript
 
+* Delving into the world of vanilla Javascript, creating a test framework from scratch
+
 ## Welcome to Quote Noter!
 
 If you have quote,
